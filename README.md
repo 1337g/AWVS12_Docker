@@ -11,7 +11,7 @@
 ```bash
 root@AWVS12_Docker :~# wget http://xianzhi-forum.oss-cn-shanghai.aliyuncs.com/upload/hack/acunetix_12.0.190902105.zip && unzip acunetix_12.0.190902105.zip && mv acunetix_12.0.190902105/linux/acunetix_12.0.190902105_x64.sh ./
 root@AWVS12_Docker :~# docker build -t sec_awvs12 . && docker run -d -p 3443:3443 sec_awvs12
-root@AWVS12_Docker :~# docker exec -it <CONTAINER ID> -u root /bin/bash
+root@AWVS12_Docker :~# docker exec -it -u root <CONTAINER ID> /bin/bash
 
 
 root@b9d47f4ae5bf:~# cd /home/acunetix/.acunetix/v_190902105/scanner/ && ./patch
