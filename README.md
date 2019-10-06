@@ -15,5 +15,7 @@ root@AWVS12_Docker :~# docker exec -it -u root <CONTAINER ID> /bin/bash
 
 
 root@b9d47f4ae5bf:~# cd /home/acunetix/.acunetix/v_190902105/scanner/ && ./patch
+
+https://127.0.0.1:3443 admin@dota.com Dota123!!!
 ```
 
